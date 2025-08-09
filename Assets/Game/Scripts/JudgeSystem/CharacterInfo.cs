@@ -17,3 +17,4 @@ public class CharacterInfo : ScriptableObject {
     [TextArea]
     public string Backstory;
 }
+
