@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 public class CharacterView : MonoBehaviour {
 	[Header("Settings")]
@@ -21,15 +22,28 @@ public class CharacterView : MonoBehaviour {
     }
 
     public void DisplayCharacter(CharacterInfo character) {
+		_portrait.transform.localPosition = Vector3.zero;
         _portrait.sprite = character.Portrait;
+
         _name.text = $"Name: {character.Name}";
         _weight.text = $"Weight: {character.Weight.ToString()}";
         _backStory.text = character.Backstory;
 		_voiceSource.clip = character.VoiceClip;
 		_voiceSource.Play();
+		_dialogue.text = character.Dialogue;
     }
 
-    public void HideCharacter(CharacterInfo character) {
-
+    public void DisplaceCharacter(JudgeResult judgeResult) {
+		switch (judgeResult.Result)
+		{
+			case Result.Accepted:
+			_portrait.transform.DOMoveX(1920, 2);
+			break;
+			case Result.Rejected:
+			_portrait.transform.DOMoveY(10, 1).SetEase(Ease.InBack);
+			break;
+			default:
+				throw new System.Exception("????????????????????");
+		}
     }
 }

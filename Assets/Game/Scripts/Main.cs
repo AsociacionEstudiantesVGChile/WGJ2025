@@ -16,7 +16,7 @@ public class Main : MonoBehaviour {
     }
 
     private IEnumerator Start() {
-        int i = 0;
+        int i = 1;
         foreach (DayInfo day in _days) {
             print($"Processing Day Nº{i++}");
             yield return StartCoroutine(ProcessDayCharactersRoutine(day.Characters));
@@ -41,6 +41,9 @@ public class Main : MonoBehaviour {
 
 			// judgeResult disponible.
 			print("Result: " + _currentJudgeResult.Result);
+			_characterView.DisplaceCharacter(_currentJudgeResult);
+
+			yield return new WaitForSeconds(2.1f);
 
             // 4. Play feedback (sound, animation, etc...) based on the result.
 
