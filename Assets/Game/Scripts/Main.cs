@@ -8,6 +8,7 @@ public class Main : MonoBehaviour {
     [SerializeField] private CharacterView _characterView;
     [SerializeField] private JudgeView _judgeView;
 
+	private JudgeResult _currentJudgeResult;
     private Judge _judge;
 
     private void Awake() {
@@ -33,6 +34,13 @@ public class Main : MonoBehaviour {
 			Waiters.Wait(_characterView.EntranceDurationSec);
 
             // 3. Wait to player judge to be emitted.
+			_judgeView.EnableButtons();
+			yield return new WaitUntil(() => {
+				return _judgeView.JudgeSelected(out _currentJudgeResult);
+			});
+
+			// judgeResult disponible.
+			print("Result: " + _currentJudgeResult.Result);
 
             // 4. Play feedback (sound, animation, etc...) based on the result.
 
