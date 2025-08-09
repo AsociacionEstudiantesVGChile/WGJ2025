@@ -1,14 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JudgeView : MonoBehaviour {
-
-    [SerializeField] private Judge _judge;
-
-    private void OnEnable() {
-
-    }
-
-    private void OnDisable() {
-        
-    }
+    [SerializeField] private Button _acceptButton, _rejectButton;
 }
