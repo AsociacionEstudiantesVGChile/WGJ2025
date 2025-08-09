@@ -94,8 +94,7 @@ namespace EasyTransition
             return SceneManager.GetSceneByName(sceneName).buildIndex;
         }
 
-        IEnumerator Timer(string sceneName, float startDelay, TransitionSettings transitionSettings)
-        {
+        IEnumerator Timer(string sceneName, float startDelay, TransitionSettings transitionSettings) {
             yield return new WaitForSecondsRealtime(startDelay);
 
             onTransitionBegin?.Invoke();
@@ -117,10 +116,11 @@ namespace EasyTransition
             yield return new WaitForSecondsRealtime(transitionSettings.destroyTime);
 
             onTransitionEnd?.Invoke();
+            
+            runningTransition = false;
         }
 
-        IEnumerator Timer(int sceneIndex, float startDelay, TransitionSettings transitionSettings)
-        {
+        IEnumerator Timer(int sceneIndex, float startDelay, TransitionSettings transitionSettings) {
             yield return new WaitForSecondsRealtime(startDelay);
 
             onTransitionBegin?.Invoke();
@@ -141,6 +141,8 @@ namespace EasyTransition
             yield return new WaitForSecondsRealtime(transitionSettings.destroyTime);
 
             onTransitionEnd?.Invoke();
+            
+            runningTransition = false;
         }
 
         IEnumerator Timer(float delay, TransitionSettings transitionSettings)
@@ -174,7 +176,7 @@ namespace EasyTransition
             while (this.gameObject.activeInHierarchy)
             {
                 //Check for multiple instances of the Transition Manager component
-                var managerCount = GameObject.FindObjectsOfType<TransitionManager>(true).Length;
+                var managerCount = GameObject.FindObjectsByType<TransitionManager>(FindObjectsSortMode.None).Length;
                 if (managerCount > 1)
                     Debug.LogError($"There are {managerCount.ToString()} Transition Managers in your scene. Please ensure there is only one Transition Manager in your scene or overlapping transitions may occur.");
 
