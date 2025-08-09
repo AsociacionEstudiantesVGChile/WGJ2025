@@ -796,7 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff0f9729f1069046b27a1e10f5b0186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
+  _transition: {fileID: 11400000, guid: 57d2dee28715fc6499379ee5905b3caf, type: 2}
 --- !u!1 &1391688144
 GameObject:
   m_ObjectHideFlags: 0
