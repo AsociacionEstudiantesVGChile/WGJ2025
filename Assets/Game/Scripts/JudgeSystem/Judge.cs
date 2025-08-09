@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class Judge : MonoBehaviour {
+public class Judge {
 
     public event Action<CharacterInfo> OnCharacterJudged;
     

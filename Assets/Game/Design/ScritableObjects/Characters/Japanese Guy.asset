@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dd26f330c405824c998edb4eaf5cfb9, type: 3}
-  m_Name: Test Character
+  m_Name: Japanese Guy
   m_EditorClassIdentifier: 
   Name: JapaneseGuy
-  Age: 28
-  Gender: 0
+  Weight: 65
+  Animal: 0
+  Diet: 1
   Portrait: {fileID: -5693519575368975486, guid: 4236a5b8a2a6dc64c998f916cbdeb2a8, type: 3}
-  Backstory: "Un tipo muy simp\xE1tico"
+  Dialogue: Neva give ap!
+  VoiceClip: {fileID: 8300000, guid: 47b45e61ff85f0e4a879438c18916210, type: 3}
+  Backstory: "Un tipo muy simp\xE1tico."

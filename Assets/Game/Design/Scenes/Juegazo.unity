@@ -1035,7 +1035,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fde99a8a1dfff04bb3a4d68335ce3ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _judge: {fileID: 0}
+  <EntranceDurationSec>k__BackingField: 1
+  <ExitDurationSec>k__BackingField: 1
+  _name: {fileID: 0}
+  _weight: {fileID: 0}
+  _dialogue: {fileID: 0}
+  _backStory: {fileID: 0}
+  _portrait: {fileID: 0}
 --- !u!4 &744265238
 Transform:
   m_ObjectHideFlags: 0
@@ -2328,7 +2334,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bfdf46ea12b9614d8f23f92377e0b1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _days: []
+  _days:
+  - {fileID: 11400000, guid: 192674995b9b44a40902ad82bc2b9495, type: 2}
   _characterView: {fileID: 744265237}
   _judgeView: {fileID: 69398290}
 --- !u!1 &2133967691

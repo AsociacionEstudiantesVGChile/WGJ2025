@@ -16,5 +16,9 @@ public class CharacterInfo : ScriptableObject {
 
     [TextArea]
     public string Backstory;
+
+    public override string ToString() {
+        return $"Name={Name}, Weight={Weight}, Animal={Animal}, Diet={Diet}, Portrait={Portrait}";
+    }
 }
 

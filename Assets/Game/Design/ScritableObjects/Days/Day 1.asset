@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b065b56683be246a0f9ec0f2c2bad6, type: 3}
   m_Name: Day 1
   m_EditorClassIdentifier: 
-  _characters:
-  - {fileID: 0}
+  Characters:
+  - {fileID: 11400000, guid: 605e6edf601580140ad4305b86763ea7, type: 2}
