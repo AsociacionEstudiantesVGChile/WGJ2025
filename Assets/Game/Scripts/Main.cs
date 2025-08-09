@@ -6,6 +6,7 @@ public class Main : MonoBehaviour {
 
     [Header("Dependencies")]
     [SerializeField] private CharacterView _characterView;
+    [SerializeField] private JudgeView _judgeView;
 
     private Judge _judge;
 
@@ -21,15 +22,15 @@ public class Main : MonoBehaviour {
 
     private IEnumerator ProcessDayCharactersRoutine(CharacterInfo[] characters) {
         foreach (CharacterInfo character in characters) {
-            // Display character information.
+            // 1.Display character information.
+            _characterView.DisplayCharacter(character);
+            // 2.Wait to display to finish.
 
-            // Wait to display to finish.
+            // 3.Wait to player judge to be emitted.
 
-            // Wait to player judge to be emitted.
+            // 4.Play feedback (sound, animation, etc...) based on the result.
 
-            // Play feedback (sound, animation, etc...) based on the result.
-
-            // Wait for result feedback to finish.
+            // 5.Wait for result feedback to finish.
             yield return null;
         }
     }
