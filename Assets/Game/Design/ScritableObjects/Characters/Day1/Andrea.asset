@@ -16,7 +16,10 @@ MonoBehaviour:
   Weight: 78
   Animal: 1
   Diet: 0
-  Portrait: {fileID: 906997432504936578, guid: 9f5f04b4350f3174d92e099ac96c2b71, type: 3}
+  Portrait: {fileID: -4884774115879448114, guid: f413366bc025c7642bb84971fdf2c0a9, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -4298056599330406823, guid: f83b59a070327e34a8b3fe24486a2541, type: 3}
+  Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
   Dialogue: "\xA1Soy Andrea, me deja pasar o lo demando!"
-  VoiceClip: {fileID: 0}
+  VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
   Backstory: 

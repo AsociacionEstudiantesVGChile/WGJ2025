@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 0
   Diet: 0
   Portrait: {fileID: 6623151957235123224, guid: eef358fc915b38c45a188ddc2dbea689, type: 3}
-  Dialogue: 
-  VoiceClip: {fileID: 0}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -4298056599330406823, guid: f83b59a070327e34a8b3fe24486a2541, type: 3}
+  Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
+  Dialogue: "Estimado, me deja pasar \xBFporfis? :3"
+  VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
   Backstory: 

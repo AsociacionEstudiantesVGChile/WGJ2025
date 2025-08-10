@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 1
   Diet: 1
   Portrait: {fileID: -4778899992197692158, guid: 726c51a13a48f9d48b15094d7e560b0b, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -1796742329309505030, guid: 3d503e736cb43514c8b3b769dbd5c76d, type: 3}
+  Eyes: {fileID: -5853187834951027225, guid: bc921ca0c575f1f45a89ea5cafd06e93, type: 3}
   Dialogue: "\xA1Javier a la orden! liquidare a los \"\xA1malos!\""
-  VoiceClip: {fileID: 0}
+  VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
   Backstory: 

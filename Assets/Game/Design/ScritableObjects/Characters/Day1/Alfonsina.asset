@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 1
   Diet: 1
   Portrait: {fileID: 5842630367150095500, guid: 54db16dcab113ad47ac06a67936ee60e, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: 7932798033344189819, guid: 89a11d22318e41a40a76462f58bb3541, type: 3}
+  Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
   Dialogue: "Soy Alfonsina \xBFpuedo pasar porfis?"
-  VoiceClip: {fileID: 0}
-  Backstory: 
+  VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
+  Backstory: Es un lobo tranquilo que quiere ser una ovejita tranqui

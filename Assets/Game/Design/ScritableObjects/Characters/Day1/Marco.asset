@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 1
   Diet: 0
   Portrait: {fileID: -855298285791758126, guid: ac46cec61299aaa42af462a517a6089e, type: 3}
-  Dialogue: "Mucho gusto \xBFpuedo entrar al....? Grrr"
-  VoiceClip: {fileID: 0}
+  Fur: {fileID: 0}
+  Teeth: {fileID: 1610817657862501647, guid: 6f49ac0f6fe374045af7f6d82fa0627c, type: 3}
+  Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
+  Dialogue: '!Me dijeron que habia comida aqui en el refuguio!'
+  VoiceClip: {fileID: 8300000, guid: 2954133dc34490e4c80fa4d3c28baf9c, type: 3}
   Backstory: 

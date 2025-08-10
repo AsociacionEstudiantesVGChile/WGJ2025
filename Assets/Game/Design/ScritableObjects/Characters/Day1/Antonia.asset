@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 0
   Diet: 0
   Portrait: {fileID: -5099292496197868168, guid: 8154f312f8d9ceb47acf7a8b8f839d8b, type: 3}
-  Dialogue: 
-  VoiceClip: {fileID: 0}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -2126246720042785711, guid: 513084672d96027448e56ec8f71cebf2, type: 3}
+  Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
+  Dialogue: "\xA1\xA1\xA1Dejame pasar!!! "
+  VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
   Backstory: 

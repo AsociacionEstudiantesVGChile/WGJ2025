@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 0
   Diet: 1
   Portrait: {fileID: -2681809406195053031, guid: 32de9791dd5916643b3cc1800f3160b8, type: 3}
-  Dialogue: 
-  VoiceClip: {fileID: 0}
+  Fur: {fileID: 0}
+  Teeth: {fileID: 7932798033344189819, guid: 89a11d22318e41a40a76462f58bb3541, type: 3}
+  Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
+  Dialogue: "\xA1\xBFEste es el refugio seguro que me han contado?!"
+  VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
   Backstory: 

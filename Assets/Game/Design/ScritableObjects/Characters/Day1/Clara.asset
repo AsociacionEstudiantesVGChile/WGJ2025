@@ -17,6 +17,9 @@ MonoBehaviour:
   Animal: 0
   Diet: 0
   Portrait: {fileID: 4130640169021434097, guid: bce8d5ea3837ddb4596d7cc2c4623db7, type: 3}
-  Dialogue: 
-  VoiceClip: {fileID: 0}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -4298056599330406823, guid: f83b59a070327e34a8b3fe24486a2541, type: 3}
+  Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
+  Dialogue: "\xA1Dame un lugar en el reba\xF1o!"
+  VoiceClip: {fileID: 8300000, guid: 96440e235db7d7c40ab91add5df59c9e, type: 3}
   Backstory: 
