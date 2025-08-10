@@ -5,11 +5,11 @@ public class JudgeView : MonoBehaviour {
     [SerializeField] private Button _accept, _reject;
 
 	private bool _trigger = false;
-	private Result _result;
+	private Decision _decision;
 
 	private void OnEnable() {
-		_accept.onClick.AddListener(() => TriggerJudgement(Result.Accepted));
-		_reject.onClick.AddListener(() => TriggerJudgement(Result.Rejected));
+		_accept.onClick.AddListener(() => TriggerJudgement(Decision.Accepted));
+		_reject.onClick.AddListener(() => TriggerJudgement(Decision.Rejected));
 	}
 
 	private void OnDisable() {
@@ -27,15 +27,13 @@ public class JudgeView : MonoBehaviour {
 		_reject.interactable = false;
 	}
 
-	private void TriggerJudgement(Result result) {
-		_result = result;
+	private void TriggerJudgement(Decision decision) {
+		_decision = decision;
 		_trigger = true;
 	}
 
 	public bool JudgeSelected(out JudgeResult judgeResult) {
-		Result result = _result;
-
-		judgeResult = new JudgeResult(result: result);
+		judgeResult = new JudgeResult(_decision);
 
 		bool savedTrigger = _trigger;
 		_trigger = false;
