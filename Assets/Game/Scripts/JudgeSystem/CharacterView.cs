@@ -56,8 +56,12 @@ public class CharacterView : MonoBehaviour {
         _name.text = $"Name: {character.Name}";
         _weight.text = $"Weight: {character.Weight.ToString()}";
         _backStory.text = character.Backstory;
-		_voiceSource.clip = character.VoiceClip;
-		_voiceSource.Play();
+
+		if (character.VoiceClip != null) {
+			_voiceSource.clip = character.VoiceClip;
+			_voiceSource.Play();
+		}
+
 		_dialogue.text = character.Dialogue;
     }
 
@@ -84,6 +88,7 @@ public class CharacterView : MonoBehaviour {
 			_ => throw new System.Exception("WTF?? ??? ? ?? ?!")
 		};
 
-		_extraInfo.sprite = _isShowingExtraInfo ? sprite : null;
+		
+		_extraInfo.sprite = sprite;
 	}
 }

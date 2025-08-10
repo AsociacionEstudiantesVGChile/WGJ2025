@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      w sheep eyes_0: -845001071124905068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
