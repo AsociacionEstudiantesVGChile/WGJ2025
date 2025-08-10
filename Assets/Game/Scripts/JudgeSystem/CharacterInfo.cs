@@ -11,6 +11,7 @@ public class CharacterInfo : ScriptableObject {
     public Animal Animal;
     public Diet Diet;
     public Sprite Portrait;
+    public Sprite Fur, Teeth, Eyes;
     public string Dialogue;
     public AudioClip VoiceClip;
 

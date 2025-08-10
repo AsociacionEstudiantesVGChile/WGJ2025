@@ -32,8 +32,8 @@ public class JudgeView : MonoBehaviour {
 		_trigger = true;
 	}
 
-	public bool JudgeSelected(out JudgeResult judgeResult) {
-		judgeResult = new JudgeResult(_decision);
+	public bool DecisionSelected(out Decision decision) {
+		decision = _decision;
 
 		bool savedTrigger = _trigger;
 		_trigger = false;
