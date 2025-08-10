@@ -17,6 +17,6 @@ MonoBehaviour:
   Animal: 1
   Diet: 0
   Portrait: {fileID: -4884774115879448114, guid: f413366bc025c7642bb84971fdf2c0a9, type: 3}
-  Dialogue: Neva giv ap!
+  Dialogue: "\xA1Hey, darme un hogar!"
   VoiceClip: {fileID: 8300000, guid: 47b45e61ff85f0e4a879438c18916210, type: 3}
   Backstory: hola soy e ldos

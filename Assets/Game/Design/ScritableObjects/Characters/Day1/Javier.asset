@@ -17,6 +17,6 @@ MonoBehaviour:
   Animal: 1
   Diet: 1
   Portrait: {fileID: -4778899992197692158, guid: 726c51a13a48f9d48b15094d7e560b0b, type: 3}
-  Dialogue: 
+  Dialogue: "\xA1Javier a la orden! liquidare a los \"\xA1malos!\""
   VoiceClip: {fileID: 0}
   Backstory: 

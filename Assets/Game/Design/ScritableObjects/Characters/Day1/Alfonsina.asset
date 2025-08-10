@@ -17,6 +17,6 @@ MonoBehaviour:
   Animal: 1
   Diet: 1
   Portrait: {fileID: 5842630367150095500, guid: 54db16dcab113ad47ac06a67936ee60e, type: 3}
-  Dialogue: 
+  Dialogue: "Soy Alfonsina \xBFpuedo pasar porfis?"
   VoiceClip: {fileID: 0}
   Backstory: 

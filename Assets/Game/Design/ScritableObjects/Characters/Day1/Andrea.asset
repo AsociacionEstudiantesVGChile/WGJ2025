@@ -17,6 +17,6 @@ MonoBehaviour:
   Animal: 1
   Diet: 0
   Portrait: {fileID: 906997432504936578, guid: 9f5f04b4350f3174d92e099ac96c2b71, type: 3}
-  Dialogue: 
+  Dialogue: "\xA1Soy Andrea, me deja pasar o lo demando!"
   VoiceClip: {fileID: 0}
   Backstory: 

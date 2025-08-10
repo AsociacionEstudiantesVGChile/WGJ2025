@@ -17,6 +17,6 @@ MonoBehaviour:
   Animal: 1
   Diet: 0
   Portrait: {fileID: -855298285791758126, guid: ac46cec61299aaa42af462a517a6089e, type: 3}
-  Dialogue: 
+  Dialogue: "Mucho gusto \xBFpuedo entrar al....? Grrr"
   VoiceClip: {fileID: 0}
   Backstory: 
