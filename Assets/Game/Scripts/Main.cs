@@ -9,11 +9,6 @@ public class Main : MonoBehaviour {
     [SerializeField] private JudgeView _judgeView;
 
 	private JudgeResult _currentJudgeResult;
-    private Judge _judge;
-
-    private void Awake() {
-        _judge = new Judge();
-    }
 
     private IEnumerator Start() {
         int i = 1;
@@ -40,7 +35,7 @@ public class Main : MonoBehaviour {
 			});
 
 			// judgeResult disponible.
-			print("Result: " + _currentJudgeResult.Result);
+			print("Result: " + _currentJudgeResult.Decision);
 			_characterView.DisplaceCharacter(_currentJudgeResult);
 
 			yield return new WaitForSeconds(2.1f);

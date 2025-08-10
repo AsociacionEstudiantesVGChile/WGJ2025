@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public enum Result {
+public enum Decision {
 	Accepted, Rejected
 }
 
 public readonly struct JudgeResult {
-	public readonly Result Result;
+	public readonly Decision Decision;
 
-	public JudgeResult(Result result) {
-		Result = result;
+	public JudgeResult(Decision decision) {
+		Decision = decision;
 	}
 }

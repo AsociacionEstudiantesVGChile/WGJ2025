@@ -34,12 +34,12 @@ public class CharacterView : MonoBehaviour {
     }
 
     public void DisplaceCharacter(JudgeResult judgeResult) {
-		switch (judgeResult.Result)
+		switch (judgeResult.Decision)
 		{
-			case Result.Accepted:
+			case Decision.Accepted:
 			_portrait.transform.DOMoveX(1920, 2);
 			break;
-			case Result.Rejected:
+			case Decision.Rejected:
 			_portrait.transform.DOMoveY(10, 1).SetEase(Ease.InBack);
 			break;
 			default:
