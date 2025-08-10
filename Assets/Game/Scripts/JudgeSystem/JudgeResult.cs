@@ -6,8 +6,10 @@ public enum Decision {
 
 public readonly struct JudgeResult {
 	public readonly Decision Decision;
+	public readonly CharacterInfo JudgedCharacter;
 
-	public JudgeResult(Decision decision) {
+	public JudgeResult(Decision decision, CharacterInfo judgedCharacter) {
 		Decision = decision;
+		JudgedCharacter = judgedCharacter;
 	}
 }
