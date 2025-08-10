@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7dd26f330c405824c998edb4eaf5cfb9, type: 3}
-  m_Name: Japanese Guy 2
+  m_Name: Diego
   m_EditorClassIdentifier: 
-  Name: JapaneseGuy
-  Weight: 65
+  Name: Diego
+  Weight: 25
   Animal: 0
   Diet: 1
-  Portrait: {fileID: -5693519575368975486, guid: 4236a5b8a2a6dc64c998f916cbdeb2a8, type: 3}
-  Dialogue: Neva giv ap!
-  VoiceClip: {fileID: 8300000, guid: 47b45e61ff85f0e4a879438c18916210, type: 3}
-  Backstory: hola soy e ldos
+  Portrait: {fileID: -2681809406195053031, guid: 32de9791dd5916643b3cc1800f3160b8, type: 3}
+  Dialogue: 
+  VoiceClip: {fileID: 0}
+  Backstory: 
