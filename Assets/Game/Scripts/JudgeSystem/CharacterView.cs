@@ -50,6 +50,7 @@ public class CharacterView : MonoBehaviour {
     public void DisplayCharacter(CharacterInfo character) {
 		_currentCharacter = character;
 
+		_portrait.transform.DOKill();
 		_portrait.transform.localPosition = Vector3.zero;
         _portrait.sprite = character.Portrait;
 
@@ -75,7 +76,7 @@ public class CharacterView : MonoBehaviour {
 				_portrait.transform.DOMoveX(1920, 2);
 				break;
 			case Decision.Rejected:
-				_portrait.transform.DOMoveY(10, 1).SetEase(Ease.InBack);
+				_portrait.transform.DOMoveY(-100, 2).SetEase(Ease.InBack);
 				break;
 			default:
 				throw new System.Exception("????????????????????");

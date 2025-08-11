@@ -9,7 +9,9 @@ public struct GameResultInfo {
 
 public class GameResultCalculator : MonoBehaviour {
 
-    public GameResultInfo CalculateGameResult(IEnumerable<JudgeResult> judgements) {
+	public GameFinalText[] FinalTexts;
+
+	public GameResultInfo CalculateGameResult(IEnumerable<JudgeResult> judgements) {
 		var acceptedCharacters = judgements.Where(judgement => judgement.Decision == Decision.Accepted).Select(judgement => judgement.JudgedCharacter);
 		var rejectedCharacters = judgements.Where(judgement => judgement.Decision == Decision.Rejected).Select(judgement => judgement.JudgedCharacter);
 
