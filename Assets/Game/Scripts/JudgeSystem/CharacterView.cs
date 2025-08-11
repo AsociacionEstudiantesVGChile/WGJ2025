@@ -16,33 +16,35 @@ public class CharacterView : MonoBehaviour {
 	[SerializeField] private AudioSource _voiceSource;
 	[SerializeField] private Button _fur, _teeth, _eyes;
     [SerializeField] private TextMeshProUGUI _name, _weight, _dialogue, _backStory;
-    [SerializeField] private Image _portrait, _extraInfo;
+    [SerializeField] private Image _portrait, _extraInfo, _bubble;
 
 	private CharacterInfo _currentCharacter;
 	private bool _isShowingExtraInfo;
+	private ExtraInfo _currentExtraInfo;
 
 	private void OnEnable() {
-		_fur.onClick.AddListener(() => ToggleExtraInfo(_currentCharacter, ExtraInfo.Fur));
+		//_fur.onClick.AddListener(() => ToggleExtraInfo(_currentCharacter, ExtraInfo.Fur));
 		_teeth.onClick.AddListener(() => ToggleExtraInfo(_currentCharacter, ExtraInfo.Teeth));
 		_eyes.onClick.AddListener(() => ToggleExtraInfo(_currentCharacter, ExtraInfo.Eyes));
 	}
 
 	private void OnDisable() {
-		_fur.onClick.RemoveAllListeners();
+		//_fur.onClick.RemoveAllListeners();
 		_teeth.onClick.RemoveAllListeners();
 		_eyes.onClick.RemoveAllListeners();
 	}
 
 	public void EnableButtons() {
-		_fur.interactable = true;
+		//_fur.interactable = true;
 		_teeth.interactable = true;
 		_eyes.interactable = true;
 	}
 
 	public void DisableButtons() {
-		_fur.interactable = false;
+		//W_fur.interactable = false;
 		_teeth.interactable = false;
 		_eyes.interactable = false;
+		_extraInfo.enabled = false;
 	}
 
     public void DisplayCharacter(CharacterInfo character) {
@@ -62,10 +64,13 @@ public class CharacterView : MonoBehaviour {
 			_voiceSource.Play();
 		}
 
+		_bubble.gameObject.SetActive(true);
+
 		_dialogue.text = character.Dialogue;
     }
 
     public void DisplaceCharacter(JudgeResult judgeResult) {
+		_bubble.gameObject.SetActive(false);
 		switch (judgeResult.Decision) {
 			case Decision.Accepted:
 				_portrait.transform.DOMoveX(1920, 2);
@@ -79,16 +84,23 @@ public class CharacterView : MonoBehaviour {
     }
 
 	private void ToggleExtraInfo(CharacterInfo character, ExtraInfo extraInfo) {
-		_isShowingExtraInfo = !_isShowingExtraInfo; // First time will be true.
+		if(_currentExtraInfo == extraInfo && _isShowingExtraInfo) {
+			_extraInfo.enabled = false;
+			_isShowingExtraInfo = false;
+			return;
+		}
+		_currentExtraInfo = extraInfo;
+		if(!_isShowingExtraInfo)
+			_isShowingExtraInfo = !_isShowingExtraInfo; // First time will be true.
 
 		Sprite sprite = extraInfo switch {
-			ExtraInfo.Fur => character.Fur,
+			//ExtraInfo.Fur => character.Fur,
 			ExtraInfo.Teeth => character.Teeth,
 			ExtraInfo.Eyes => character.Eyes,
 			_ => throw new System.Exception("WTF?? ??? ? ?? ?!")
 		};
 
-		
+		_extraInfo.enabled = _isShowingExtraInfo;
 		_extraInfo.sprite = sprite;
 	}
 }
