@@ -56,7 +56,7 @@ public class CharacterView : MonoBehaviour {
 		_portrait.transform.DOMoveX(0, 1).From().SetEase(Ease.OutBack);
 
         _name.text = $"Name: {character.Name}";
-        _weight.text = $"Weight: {character.Weight.ToString()}";
+        _weight.text = $"Weight: {character.Weight}";
         _backStory.text = character.Backstory;
 
 		if (character.VoiceClip != null) {
@@ -65,7 +65,6 @@ public class CharacterView : MonoBehaviour {
 		}
 
 		_bubble.gameObject.SetActive(true);
-
 		_dialogue.text = character.Dialogue;
     }
 

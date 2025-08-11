@@ -8,16 +8,14 @@ public class Main : MonoBehaviour {
     [Header("Dependencies")]
     [SerializeField] private GameResultView _gameResultView;
     [SerializeField] private CharacterView _characterView;
+	[SerializeField] private GameResultCalculator _gameResultCalculator;
     [SerializeField] private JudgeView _judgeView;
 
     private readonly List<JudgeResult> _judgements = new();
 	private Decision _decision;
 
-    private GameResultCalculator _gameResultCalculator;
-
     private void Awake() {
         Application.targetFrameRate = 144;
-        _gameResultCalculator = new();
     }
 
     private IEnumerator Start() {

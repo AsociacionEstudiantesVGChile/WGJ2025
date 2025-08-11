@@ -1311,6 +1311,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000030517578, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &551734124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 551734126}
+  - component: {fileID: 551734125}
+  m_Layer: 0
+  m_Name: GameCalculator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &551734125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551734124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ae4d57a8b97c94aadced8f8d219f04, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!4 &551734126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551734124}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &620191690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,7 +1940,7 @@ MonoBehaviour:
   _backStory: {fileID: 289907431}
   _portrait: {fileID: 713419049}
   _extraInfo: {fileID: 1227801168}
-  _bubble: {fileID: 977237704}
+  _bubble: {fileID: 0}
 --- !u!4 &744265238
 Transform:
   m_ObjectHideFlags: 0
@@ -3081,7 +3125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1679152659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   m_Padding:
@@ -3843,6 +3887,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b2a1a056a5eeab2459837f2124fc4589, type: 2}
   _gameResultView: {fileID: 1256646818}
   _characterView: {fileID: 744265237}
+  _gameResultCalculator: {fileID: 0}
   _judgeView: {fileID: 69398290}
 --- !u!1 &2133967691
 GameObject:
@@ -3975,3 +4020,4 @@ SceneRoots:
   - {fileID: 69398291}
   - {fileID: 744265238}
   - {fileID: 1256646819}
+  - {fileID: 551734126}
