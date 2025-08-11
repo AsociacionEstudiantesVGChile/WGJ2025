@@ -16,6 +16,7 @@ public class Main : MonoBehaviour {
     private GameResultCalculator _gameResultCalculator;
 
     private void Awake() {
+        Application.targetFrameRate = 144;
         _gameResultCalculator = new();
     }
 

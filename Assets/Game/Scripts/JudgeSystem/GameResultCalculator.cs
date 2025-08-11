@@ -7,7 +7,7 @@ public struct GameResultInfo {
     public string Text;
 }
 
-public class GameResultCalculator {
+public class GameResultCalculator : MonoBehaviour {
     public GameResultInfo CalculateGameResult(IEnumerable<JudgeResult> judgements) {
         var acceptedCharacters = judgements.Where(judgement => judgement.Decision == Decision.Accepted).Select(judgement => judgement.JudgedCharacter);
         var rejectedCharacters = judgements.Where(judgement => judgement.Decision == Decision.Rejected).Select(judgement => judgement.JudgedCharacter);
@@ -20,7 +20,7 @@ public class GameResultCalculator {
 
         var acceptedCarnivorousSheeps = acceptedSheeps.Where(sheep => sheep.Diet == Diet.Carnivorous);
         var acceptedVeganSheeps = acceptedSheeps.Where(sheep => sheep.Diet == Diet.Vegan);
-        
+
         var acceptedCarnivorousWolfs = acceptedWolves.Where(wolf => wolf.Diet == Diet.Carnivorous);
         var acceptedVeganWolfs = acceptedWolves.Where(wolf => wolf.Diet == Diet.Vegan);
 
@@ -30,6 +30,11 @@ public class GameResultCalculator {
         var rejectedCarnivorousWolfs = rejectedWolves.Where(wolf => wolf.Diet == Diet.Carnivorous);
         var rejectedVeganWolfs = rejectedWolves.Where(wolf => wolf.Diet == Diet.Vegan);
 
-        return default;
+		var gameResult = new GameResultInfo {
+			Sprite = null,
+			Text = "Continuará..."
+		};
+
+        return gameResult;
     }
 }
