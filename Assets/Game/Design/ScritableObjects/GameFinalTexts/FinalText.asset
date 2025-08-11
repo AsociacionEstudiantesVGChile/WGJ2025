@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4816d1ea9c9d2944bce167aa42bf34c, type: 3}
   m_Name: FinalText
   m_EditorClassIdentifier: 
-  Text: 
+  Text: "Hola se acab\xF3"
