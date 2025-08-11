@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: "\xA1\xBFEste es el refugio seguro que me han contado?!"
   VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
-  Backstory: 
+  Backstory: Esta oveja es muy confianzuda, pero su intuicion le lleva a dudar de
+    del refuguio que le contaron. Viene de un lejano lugar del  que no tiene muy
+    buena vida, buscando cambiar eso ah llegado al refugio.

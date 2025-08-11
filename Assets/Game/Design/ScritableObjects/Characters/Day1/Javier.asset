@@ -22,4 +22,4 @@ MonoBehaviour:
   Eyes: {fileID: -5853187834951027225, guid: bc921ca0c575f1f45a89ea5cafd06e93, type: 3}
   Dialogue: "\xA1Javier a la orden! liquidare a los \"\xA1malos!\""
   VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
-  Backstory: 
+  Backstory: Es un ex militar que quiere ayudar a hacer "lo correcto"

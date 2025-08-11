@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: "Estimado, me deja pasar \xBFporfis? :3"
   VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
-  Backstory: 
+  Backstory: "Una ovejita carnivora que busca hacerse la tierna y linda con los demas,
+    haciendoles creer que es herb\xEDvora, pero en las sombras se come a su propia
+    especie... \xA1Es escalofriante!"

@@ -22,4 +22,5 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: "\xA1\xA1\xA1Dejame pasar!!! "
   VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
-  Backstory: 
+  Backstory: "Oveja solitaria de 45 a\xF1os, ha vivido toda su vida sola por alguna
+    razon, alguna vez tuvo padres pero ya no hay registro."

@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -5853187834951027225, guid: bc921ca0c575f1f45a89ea5cafd06e93, type: 3}
   Dialogue: "Quiero pasar al reba\xF1o \xA1AHORA!"
   VoiceClip: {fileID: 8300000, guid: 925839ab79751e447b3c50fd82ae24d4, type: 3}
-  Backstory: 
+  Backstory: "Un lobo gru\xF1on que busca coseguir comida, puede aguantarse un poco
+    pero tiene poca paciencia  y no dudara en usar su fuerza o colmillos si no lo
+    consigue"

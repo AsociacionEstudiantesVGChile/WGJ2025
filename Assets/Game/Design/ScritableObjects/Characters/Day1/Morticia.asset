@@ -20,6 +20,7 @@ MonoBehaviour:
   Fur: {fileID: 0}
   Teeth: {fileID: 1610817657862501647, guid: 6f49ac0f6fe374045af7f6d82fa0627c, type: 3}
   Eyes: {fileID: -5853187834951027225, guid: bc921ca0c575f1f45a89ea5cafd06e93, type: 3}
-  Dialogue: '!Necesito pasar o morire! plz! PLZ!!!'
+  Dialogue: "\xA1Necesito pasar o morire! plz! PLZ!!!"
   VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
-  Backstory: 
+  Backstory: "Un lobo psiosopata que enga\xF1a a los demas buscando sus siguientes
+    presas aunque tenga que hacerse pasar por los heb\xEDvioros."

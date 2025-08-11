@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: "Hola estimado \xBFpuedo pasar? porfis :3"
   VoiceClip: {fileID: 8300000, guid: 96440e235db7d7c40ab91add5df59c9e, type: 3}
-  Backstory: 
+  Backstory: "Una ovejita tierna y alegre que busca aventuras, algun pajarito por
+    ah\xED le dijo que habia un refugio donde podia encontrar nuevas aventuras en
+    su travesia."

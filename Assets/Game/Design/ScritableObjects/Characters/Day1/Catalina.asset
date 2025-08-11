@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: Escuche que en este refugio dan hogar :'3
   VoiceClip: {fileID: 8300000, guid: 96440e235db7d7c40ab91add5df59c9e, type: 3}
-  Backstory: 
+  Backstory: 'Una ovejita sensible pero tierna, que ha sufrido en su familia. buscando
+    un hogar en el que sea agradable vivie, a diferencia del que proviene. Donde
+    era maltratado '

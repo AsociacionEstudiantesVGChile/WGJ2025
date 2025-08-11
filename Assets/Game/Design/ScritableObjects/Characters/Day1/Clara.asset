@@ -22,4 +22,5 @@ MonoBehaviour:
   Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
   Dialogue: "\xA1Dame un lugar en el reba\xF1o!"
   VoiceClip: {fileID: 8300000, guid: 96440e235db7d7c40ab91add5df59c9e, type: 3}
-  Backstory: 
+  Backstory: "Es una oveja un poco gru\xF1ona buscando ser superior a sus iguales,
+    algo prepotentes y malhablado con lenguaje soez."

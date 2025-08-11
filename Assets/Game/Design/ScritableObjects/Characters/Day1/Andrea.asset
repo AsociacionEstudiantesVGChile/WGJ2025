@@ -22,4 +22,4 @@ MonoBehaviour:
   Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
   Dialogue: "\xA1Soy Andrea, me deja pasar o lo demando!"
   VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
-  Backstory: 
+  Backstory: Es un lobo con problemas psicologicos graves y cronico!

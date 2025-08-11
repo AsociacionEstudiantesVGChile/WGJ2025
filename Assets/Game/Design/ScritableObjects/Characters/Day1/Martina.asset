@@ -22,4 +22,5 @@ MonoBehaviour:
   Eyes: {fileID: -5853187834951027225, guid: bc921ca0c575f1f45a89ea5cafd06e93, type: 3}
   Dialogue: "Hola mucho gusto juez, mi familia \xA1me necesita!"
   VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
-  Backstory: hola soy e ldos
+  Backstory: Un lobo que busca alimento para su familia carnivora, trabaja buscando
+    victimas faciles para alimentarlos. o si no sufre terribles consecuencias

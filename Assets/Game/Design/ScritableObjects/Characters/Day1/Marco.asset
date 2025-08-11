@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
   Dialogue: '!Me dijeron que habia comida aqui en el refuguio!'
   VoiceClip: {fileID: 8300000, guid: 2954133dc34490e4c80fa4d3c28baf9c, type: 3}
-  Backstory: 
+  Backstory: Un lobo noble y seguro de si mismo aunque es carnivoro, tiene modales
+    para comunicarse con los demas, no siempre ocupa la violencia. pero no duda en
+    defender a su gente si le ponen una mano encima.

@@ -22,4 +22,6 @@ MonoBehaviour:
   Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
   Dialogue: "\xA1Dame refugio o te golpeo!"
   VoiceClip: {fileID: 8300000, guid: 2954133dc34490e4c80fa4d3c28baf9c, type: 3}
-  Backstory: 
+  Backstory: Un lobo enojon y prepotente que anda golpeando a todos si no le hacen
+    caso. Crecio en las calles de su ciudad. Cuando chico nadie le prestaba atencion
+    y por eso es tan explusivo.
