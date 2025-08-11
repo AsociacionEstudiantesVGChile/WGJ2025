@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd26f330c405824c998edb4eaf5cfb9, type: 3}
+  m_Name: Axel
+  m_EditorClassIdentifier: 
+  Name: Axel
+  Weight: 45
+  Animal: 1
+  Diet: 0
+  Portrait: {fileID: 8982099749623107299, guid: 2dde2fc1466ee75479fc90ec7fcb976b, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: 1610817657862501647, guid: 6f49ac0f6fe374045af7f6d82fa0627c, type: 3}
+  Eyes: {fileID: -5127779143147801896, guid: 1fbefb3d8deb2b74389959ae423457af, type: 3}
+  Dialogue: Se que aqui vive gente y se puede comer :3
+  VoiceClip: {fileID: 8300000, guid: 90163abee8ae28f46813c2df5a4c31e5, type: 3}
+  Backstory: 

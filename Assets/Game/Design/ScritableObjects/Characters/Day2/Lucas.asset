@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd26f330c405824c998edb4eaf5cfb9, type: 3}
+  m_Name: Lucas
+  m_EditorClassIdentifier: 
+  Name: Lucas
+  Weight: 70
+  Animal: 1
+  Diet: 0
+  Portrait: {fileID: 6937817954938267909, guid: 9d7413b88d57c4d4bb035b4a2d2da88a, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: -2126246720042785711, guid: 513084672d96027448e56ec8f71cebf2, type: 3}
+  Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
+  Dialogue: "\xA1\xA1Alegria!! hey que tal \xBFme deja pasar al refugio?"
+  VoiceClip: {fileID: 8300000, guid: 96440e235db7d7c40ab91add5df59c9e, type: 3}
+  Backstory: 

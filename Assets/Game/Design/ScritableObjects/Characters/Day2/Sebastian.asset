@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd26f330c405824c998edb4eaf5cfb9, type: 3}
+  m_Name: Sebastian
+  m_EditorClassIdentifier: 
+  Name: Sebastian
+  Weight: 80
+  Animal: 1
+  Diet: 0
+  Portrait: {fileID: -4778899992197692158, guid: 726c51a13a48f9d48b15094d7e560b0b, type: 3}
+  Fur: {fileID: 0}
+  Teeth: {fileID: 1610817657862501647, guid: 6f49ac0f6fe374045af7f6d82fa0627c, type: 3}
+  Eyes: {fileID: -845001071124905068, guid: 94b01773c53c7a843bb8880ca6b1a2b7, type: 3}
+  Dialogue: "\xA1Quiero entrar o les tiro la puerta! >:("
+  VoiceClip: {fileID: 8300000, guid: 3558f8b54fd94b242951e69725b439ad, type: 3}
+  Backstory: Un lobo rabioso que deja el caos por todo lugar por el que pasa. Aunque
+    le cierren las puertas, encontrara la forma de pasar y abrirse camino.

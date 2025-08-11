@@ -1683,6 +1683,7 @@ MonoBehaviour:
   _backStory: {fileID: 289907431}
   _portrait: {fileID: 713419049}
   _extraInfo: {fileID: 1227801168}
+  _bubble: {fileID: 977237704}
 --- !u!4 &744265238
 Transform:
   m_ObjectHideFlags: 0
@@ -3275,7 +3276,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 323784439}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.48349223
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3550,6 +3551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _days:
   - {fileID: 11400000, guid: 192674995b9b44a40902ad82bc2b9495, type: 2}
+  - {fileID: 11400000, guid: b2a1a056a5eeab2459837f2124fc4589, type: 2}
   _gameResultView: {fileID: 1256646818}
   _characterView: {fileID: 744265237}
   _judgeView: {fileID: 69398290}
